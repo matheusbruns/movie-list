@@ -1,0 +1,56 @@
+.container{
+    width: 90%;
+    margin: auto;
+    transition: 0.5s;
+}
+.destaques{
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 2em;
+}
+.lista-filmes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.nomeFilme{
+    color: black;
+    padding: 10px;
+    background-color: rgb(151, 151, 151);
+    border-radius: 5px 5px 0 0;
+}
+.imagem{
+    height: 150px;
+}
+.acessar{
+    padding: 5px 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgba(197, 39, 39, 0.986);
+    border-radius: 0 0 5px 5px ;
+    transition: 0.5s;
+}
+.acessar:hover{
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+}
+
+@media screen and (max-width:920px){
+    .imagem{
+        height: 100px;
+    }
+}
+@media screen and (max-width:550px){
+    .destaques{
+        text-align: center;
+        font-size: 1.3em;
+    }
+}

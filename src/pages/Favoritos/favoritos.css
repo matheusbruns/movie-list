@@ -1,0 +1,60 @@
+.meus-filmes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: rgb(216, 216, 216);
+    margin-top: 20px;
+}
+.meus-filmes h1{
+    padding: 20px;
+}
+ul{
+    width: 90%;
+}
+ul li{
+    padding: 10px 0;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+.botoesFav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.botoesFav button{
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgb(190, 190, 190);
+    border: 0;
+    font-weight: 600;
+}
+.botoesFav .detalhes{
+    color: #fff;
+}
+.botoesFav .detalhes:hover{
+    color: rgb(233, 10, 10);
+}
+
+@media screen and (max-width:500px){
+    .nomeFav{
+        font-size: 15px;
+    }
+    .botoesFav{
+        font-size: 14px;
+    }
+    .botoesFav button{
+        padding: 3px 5px;
+        font-size: 14px;
+    }
+    .botoesFav .detalhes{
+        font-size: 12px;
+    }
+}

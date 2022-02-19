@@ -1,0 +1,73 @@
+.mainErr{
+    background: url('https://assets.nflxext.com/ffe/siteui/pages/errors/bg-lost-in-space.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    user-select: none;
+}
+.containerErr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;  
+}
+.containerErr h1{
+    font-size: 3em;
+    font-weight: 700;
+    text-shadow: 1px 1px 22px black, 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);  
+}
+.containerErr p{
+    font-size: 1.4rem;
+    padding: 20px 0;
+    text-shadow: 1px 1px 22px black, 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+    
+}
+.ButtonHome{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000000;
+    background: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ButtonHome:hover{
+    background: rgba(255, 255, 255, 0.603);
+}
+.codErr{
+    margin-top: 25px;
+    border-left: 2px solid #e70b0b;
+    padding: 1px 10px;
+}
+.codErr p{
+    letter-spacing: 4px;
+    font-weight:lighter;
+    text-shadow: black 0.1em 0.1em 0.2em;  
+}
+
+@media screen and (max-width:500px){
+    .containerErr{
+        width: 90%;
+        padding: 60px 0;  
+    }
+    .containerErr h1{
+        font-size: 2em;
+    }
+    .containerErr p{
+        font-size: 1.2rem;
+        margin-top: 20px;        
+    }
+    .codErr{
+        margin-top: 25px;
+        background-color: #00000023;
+    }
+}
