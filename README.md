@@ -1,6 +1,5 @@
 # Projeto Lista de Filmes
-Nesse projeto me inspirei em um visual do netflix. Está adaptável a diferentes tamanhos de tela (responsivo) e me preocupei com a tela de carregamento, ou seja, enquanto a requisição não for totalmente carregada, fica uma animação de carregamento na tela.
-
+Nesse projeto me inspirei em um visual do netflix. Está adaptável a diferentes tamanhos de tela (responsivo) e me preocupei com a tela de carregamento, ou seja, enquanto a requisição não for totalmente carregada, fica uma animação de carregamento na tela. Você pode acessar os filmes e salvar na lista de desejos, a lista de desejos salva no storage do seu dispositivo. Na página de visualização do filme, o botão de "Trailer"encaminha o usuário para o youtube com o nome do filme + trailer na barra de pesquisa.
 
 ## :rocket: Começando:
 
