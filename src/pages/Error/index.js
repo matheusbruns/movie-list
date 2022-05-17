@@ -5,7 +5,7 @@ export default function notFound (){
     return(
         <div className='mainErr'>
             <header>
-                <Link to='/' className='logo'>NETFLIX</Link>
+                <Link to='/' className='logo'>NETVLIX</Link>
             </header>
             <div className='containerErr'>
                 <h1>Você se perdeu? </h1>

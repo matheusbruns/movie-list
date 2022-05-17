@@ -27,7 +27,7 @@ export default function Filme(){
             setLoading(false);
         }
         loadFilme();
-    }, []);
+    }, [id, navigate]);
 
     function salvaFilme(){
         const minhaLista = localStorage.getItem('filmes');
@@ -66,7 +66,7 @@ export default function Filme(){
             <Header/>
             <div className='mainFilme'>
                     <h1 className='tituloFilme'>{filme.nome}</h1>
-                    <img src={filme.foto} className='imagemFilme'/>
+                    <img src={filme.foto} className='imagemFilme' alt={filme.nome}/>
                     <p className='sinopse'><strong>Sinopse: </strong>{filme.sinopse}</p>
 
                     <div className='botoes'>
