@@ -3,6 +3,9 @@ Nesse projeto me inspirei em um visual do netflix. Está adaptável a diferentes
 
 ## :rocket: Começando:
 
+#### `mkdir pasta-onde-vai-ficar-o-projeto`
+Abra o seu CMD e crie uma pasta para o projeto em seu diretório desejado
+
 #### `npx create-react-app nome-do-projeto`
 Para iniciar um projeto com React.
 
