@@ -18,7 +18,10 @@ export default function Home() {
       
       // console.log(response.data);
       setFilme(response.data);
-      setLoading(false);
+      
+      setTimeout(()=>{
+        setLoading(false);
+      }, );
     }
 
     loadFilme();
@@ -44,7 +47,7 @@ export default function Home() {
               return(
                 <article className='card' key={filme.id}>
                   <strong className='nomeFilme'>{filme.nome}</strong>
-                  <img className='imagem' src={filme.foto} alt={filme.nome}/>
+                  <img className='imagem' src={filme.foto} alt={filme.nome} />
                   <Link className='acessar' to={`/filme/${filme.id}`}>Acessar</Link>
                 </article>
               )
